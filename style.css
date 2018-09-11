@@ -1,0 +1,271 @@
+/*
+Tulis di sini semua style yang Anda buat.
+Tidak diperbolehkan membuat file .CSS lainnya.
+
+*/
+
+@media (min-width: 600px){
+    a {
+        font-size: 1.25rem;
+    }
+}
+h1{
+    border: solid 2px;
+}
+
+.me{
+    margin-left: 500px;
+}
+.address{
+   float: left;
+   width: 100px;
+   color: white;
+   font-family: 'Courier New', Courier, monospace;
+   
+}
+
+.hello{
+    margin-left: 240px;
+    margin-top: 40px;
+    font-size: 25pt;
+    width: 900px;
+    background-color: gray;
+    opacity: 0.5;
+    color: whitesmoke;
+    font-family: fantasy;
+}
+
+.surel{
+    margin-left: 480px;
+    color: white;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.ig_content{
+    float: right;
+    width: 180px;
+    color: white;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.menu{
+    overflow: hidden;
+    background-color: #333;
+    margin-left: 750px;
+    
+}
+
+.menu a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .menu a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .menu a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  
+.footer{
+    width: 350px;
+    background-image: url("images/pattern.jpg");
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    text-align: center;
+    font-size: 18pt;
+    margin-top: 240px;
+    margin-left: 1000px;
+}
+
+.footer4{
+    width: 380px;
+    background-image: url("images/pattern.jpg");
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    text-align: center;
+    font-size: 18pt;
+    margin-top: 300px;
+    margin-left: -70px;
+}
+
+.idn{
+    width: 150px;
+    height: 30px;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+.komud{
+    margin-left: 600px;
+    width: 150px;
+    height: 30px;
+}
+
+.content1{
+    background-image: url("images/1.jpg");
+    height: 350px;
+    float: left;
+     margin-right: 20px;
+     width: 200px;
+     margin-left: 270px;
+}
+
+.content2{
+    background-image: url("images/2.jpg");
+    height: 350px;
+    float: right;
+    width: 180px;
+    margin-right: 100px;
+}
+
+.button2{
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    background: #3498db;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 10px;
+    width: 90px;
+    margin-left: 50px;
+     margin-top: 15px;
+}
+
+.button1{
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    background: #3498db;
+    margin-left: -14px;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 10px;
+    width: 90px;
+    margin-top: 10px;
+}
+
+.footer2{
+    font-size: 18pt;
+    font-weight: bold;
+    text-align: center;
+    width: 500px;
+    height: 30px;
+    float: right;
+    background-image: url("images/pattern.jpg");
+    color: white;
+    margin-top: 30px;
+    margin-right: -13px;
+}
+
+.greetings{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    color: orange;
+}
+
+.email{
+    margin-left: 400px;
+}
+
+.fb{
+    float: right;
+    margin-left: 190px;
+    margin-top: 20px;
+}
+
+.footer3{
+	 font-size: 18pt;
+    font-weight: bold;
+    text-align: center;
+    width: 750px;
+    height: 30px;
+    float: right;
+    background-image: url("images/pattern.jpg");
+    color: white;
+    margin-top: 90px;
+    margin-right: -20px;
+	
+}
+
+.intro1{
+   padding-left: 4px;
+	background-color: gray;
+    width: 1200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.intro2{
+    padding-left: 4px;
+margin-top: 30px;
+float: right;
+background-color: gray;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.intro3{
+    
+    padding-left: 4px;
+    margin-top: 220px;
+    background-color: aqua;
+    width: 1200px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.about-bg{
+    background-repeat: no-repeat;
+    background-size: 1380px 790px;
+    overflow-y: scroll;
+    background-image: url(images/writing2.jpg)
+}
+
+.contact-bg{
+    background-repeat: no-repeat;
+    background-size: 1380px 990px;
+    overflow-y: scroll;
+    background-image: url(images/img.jpg)
+}
+
+.port-bg{
+    background-repeat: no-repeat;
+    background-size: 1380px 790px;
+    overflow-y: scroll;
+    background-image: url(images/img.jpg)
+}
+
+.index-bg{
+    background-repeat: no-repeat;
+    background-size: 1380px 790px;
+    overflow-y: scroll;
+    background-image: url(images/home.jpg)
+}
+
+.name{
+    margin-right: 800px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25pt;
+    color: white;
+}
+
+.form{
+    opacity: 0.8;
+   
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 9px;
+    width: 390px;
+    background-color: #03A9F4;
+    margin-top: 110px;
+    margin-left: 20px;
+}
